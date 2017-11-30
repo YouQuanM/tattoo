@@ -1,0 +1,254 @@
+.clearfix:after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+ul{
+    margin: 0;
+}
+
+.active{
+    border-bottom: 4px solid #fff;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+header{
+    background: rgba(0,0,0,0.35);
+}
+nav{
+    height: 50px;
+}
+#banner{
+    height:755px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+nav ul li, nav .logo{
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 20px;
+}
+nav ul li a{
+    line-height: inherit;
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    color: #ffffff;
+}
+nav ul li.logo{
+    float: left;
+    padding: 10px;
+}
+#banner .inner{
+    color: white;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top:150px;
+}
+.sub-heading{
+    font-size: 18px;
+}
+#banner .sub-heading{
+    margin: 10px;
+    line-height: 30px;
+}
+#banner .inner h1{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+button{
+    border:none;
+    background: #333333;
+    color: #eeeeee;
+    padding: 10px;
+}
+#banner .inner .more{
+    margin-top: 180px;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.logo a{
+    color: #ffffff;
+}
+.hr{
+    width:100%;
+    margin: 20px auto;
+    height: 2px;
+}
+#main-btn{
+    margin-top: 10px;
+    padding: 14px 28px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    border-radius: 6px;
+    background: #1188aa;
+}
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+
+}
+.one{
+    text-align: center;
+    background-color:  #089DB0;
+    padding: 100px 0;
+    color: #ffffff;
+}
+.one .hr{
+    background-color: #5fbfda;
+    width: 60%;
+}
+.icon-group{
+    margin-top: 20px;
+}
+.one .icon-group .icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #098392;
+    transform: rotate(45deg);
+    margin: 20px;
+}
+
+.two{
+    background-color: #252f34;
+}
+.two .img-section{
+    width:45%;
+}
+.img-section img{
+    width: 100%;
+}
+.text-section{
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.two .text-section{
+    width: 49%;
+    display: inline-block;
+    color: #ffffff;
+    word-wrap: break-word
+}
+.article-preview:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.article-preview:nth-child(odd){
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.article-preview > div{
+    float: left;
+    font-size: 0;
+}
+.article-preview h2{
+    font-size: 24px;
+}
+.text-section h2{
+    margin-bottom: 20px;
+}
+.text-section p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+.text-section .sub-heading{
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.three{
+    padding: 80px;
+    background-color: #3f3965;
+    color: white;
+}
+.three .heading-wrapper{
+    text-align: center;
+}
+.three .hr{
+    background-color: #373295;
+    width: 60%;
+}
+.card-group{
+    margin:20px auto;
+    width: 60%;
+}
+.card{
+    margin: 0 auto;
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    padding:20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /*border: 1px solid white;*/
+}
+.card:first-child{
+    background-color: rgba(0,0,0,0.05);
+}
+.card:nth-child(2){
+    background-color: rgba(0,0,0,0.1);
+}
+.card:nth-child(3){
+    background-color: rgba(0,0,0,0.15);
+}
+.card:nth-child(4){
+    background-color: rgba(0,0,0,0.2);
+}
+.card:nth-child(5){
+    background-color: rgba(0,0,0,0.25);
+}
+.card:nth-child(6){
+    background-color: rgba(0,0,0,0.3);
+}
+
+footer{
+    background-color: #333333;
+    color: white;
+    min-height: 200px;
+    text-align: center;
+}
+
+ul.share-group{
+    display: block;
+    width:1080px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.share-group li{
+    display: inline-block;
+    padding:10px;
+}
+.copy{
+    padding-bottom: 20px;
+}
+
+.main-wrapper{
+    background: #444 url("../img/banner.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
